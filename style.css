@@ -9,7 +9,7 @@ body{
 .container {
     color: #888;
     height: 100%;
-    max-width: 500px;
+    max-width: 968px;
     font-size: .8rem;
 }
 .input {
@@ -37,4 +37,7 @@ body{
     display: flex;
     align-items: center;
     color: red;
+}
+.error {
+    border: 1px solid red;
 }
