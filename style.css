@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 12px;
+}
+.container {
+    color: #888;
+    height: 100%;
+    max-width: 500px;
+    font-size: .8rem;
+}
+.input {
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 25px;
+    margin: 20px 0 40px 20px;
+}
+.input__name {
+    display: flex;
+    align-items: center;
+}
+.input__value {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 4px;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    color: #000;
+}
+.input__error {
+    display: flex;
+    align-items: center;
+    color: red;
+}
